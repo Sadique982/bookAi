@@ -10,13 +10,13 @@ function AiDemo(props) {
           className="w-full rounded-xl"
         />
       ) : (
-        <div className="video-embed-container ">
+        <div className="video-embed-container overflow-hidden">
           <iframe
             src="https://app.arcade.software/share/OvUdnIEhwNxssQsB3COY?ref=share-link"
             title="Arcade Video"
             width="100%"
             height="500rem"
-            className="rounded-lg shadow-lg scale-100 hidden md:block"
+            className="rounded-lg shadow-lg scale-150 hidden md:block"
           ></iframe>
         </div>
       )}

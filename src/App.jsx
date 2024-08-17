@@ -6,14 +6,14 @@ import { motion } from "framer-motion";
 import Navbar from "./Navbar/Navbar";
 import MainBody from "./MainBody/MainBody";
 import AiDemo from "./AiDemo/AiDemo";
-import Book from "./assets/book.png";
-import Paradox from "./assets/paradox.png";
 import Features from "./Features/Features";
 import Footer from "./Footer/Footer";
 import WorkRoadMap from "./WorkRoadmap/WorkRoadMap";
 import BookSample from "./BookSample/BookSample";
 import Testimonials from "./Testimonials/Testimonials";
 import NewsLetter from "./NewsLetter/NewsLetter";
+import Book from "./assets/book.png";
+import Paradox from "./assets/paradox.png";
 
 function MovingStars() {
   const starsRef = useRef(null);

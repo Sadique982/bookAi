@@ -47,8 +47,8 @@ function App() {
       <BookSample />
       <AiDemo imgSrc={null} fltImg={null} altText="Ai Book Generator Video" />
       <WorkRoadMap heading="Roadmap" />
-      <Testimonials/>
-      <NewsLetter/>
+      <Testimonials />
+      <NewsLetter />
       <Footer />
     </div>
   );

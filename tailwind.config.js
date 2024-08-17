@@ -9,12 +9,10 @@ export default {
         gradient2: "linear-gradient(45deg, #8a2be2, #4b0082)",
       },
       colors: {
-       
         accentColor: "#8a2be2",
         textColor: "#ffffff",
         textSecondary: "#b3b3b3",
-        yellow:"rgba(255,255,0,1)",
-        
+        yellow: "rgba(255,255,0,1)",
       },
     },
   },

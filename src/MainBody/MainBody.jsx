@@ -1,5 +1,5 @@
 import React from "react";
-import "./MainBody.css";;
+import "./MainBody.css";
 function MainBody() {
   return (
     <>
@@ -7,9 +7,7 @@ function MainBody() {
         <div className="flex justify-center">
           <h1 className="max-w-6xl">
             Explore the Possibilities of
-            <span class="highlight bg-gradient2 mx-4">
-              AI Book Writing
-            </span>
+            <span class="highlight bg-gradient2 mx-4">AI Book Writing</span>
             with BookAI
           </h1>
         </div>

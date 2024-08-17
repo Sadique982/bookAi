@@ -4,6 +4,7 @@
     line-height: 1.2;
     font-weight: bold;
 }
+
 .highlight {
     background-clip: text -webkit;
     -webkit-background-clip: text;
@@ -11,7 +12,8 @@
     position: relative;
     border-bottom: 3px solid #726bff;
 }
-.button>a{
+
+.button>a {
     display: inline-block;
     padding: 12px 30px;
     margin: 0 10px 30px 10px;
@@ -19,6 +21,7 @@
     font-weight: 600;
     transition: transform 0.3s ease;
 }
-.button>a:hover{
+
+.button>a:hover {
     transform: translateY(-3px);
 }

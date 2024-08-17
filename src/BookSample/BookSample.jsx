@@ -10,7 +10,7 @@ function BookSample() {
       <p>
         Explore some of the captivating books created using our AI technology.
       </p>
-      <SampleContainer/>
+      <SampleContainer />
     </section>
   );
 }

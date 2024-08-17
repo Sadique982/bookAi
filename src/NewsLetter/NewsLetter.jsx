@@ -15,7 +15,9 @@ function NewsLetter() {
           placeholder="Enter your email"
           required
         />
-        <button type="submit" className="bg-gradient1 p-3 rounded-md w-1/3">Subscribe</button>
+        <button type="submit" className="bg-gradient1 p-3 rounded-md w-1/3">
+          Subscribe
+        </button>
       </form>
     </section>
   );

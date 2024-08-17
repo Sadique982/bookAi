@@ -32,7 +32,7 @@ function Features() {
     <section className="features mx-4 sm:mx-8 md:mx-12 lg:mx-16 mt-20">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
         {feature.map((item, index) => (
-          <div key={index} className="feature flex flex-col items-center">
+          <div key={index} className="feature m-1 flex flex-col items-center">
             <div className="flex justify-center items-center bg-gradient2 rounded-full p-4 mb-4">
               <img
                 src={item.logo}

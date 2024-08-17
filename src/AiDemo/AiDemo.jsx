@@ -2,7 +2,7 @@ import React from "react";
 import "./AiDemo.css";
 function AiDemo(props) {
   return (
-    <div className="aiDemo mx-20 p-3 md:p-5 lg:p-10 rounded-xl relative overflow-hidden md:h-full">
+    <div className="aiDemo md:mx-20 p-3 md:p-5 lg:p-10 rounded-xl relative overflow-hidden md:h-full">
       {props.imgSrc != null ? (
         <img
           src={props.imgSrc}

@@ -54,11 +54,11 @@ function WorkRoadMap(props) {
     },
   ];
   return (
-    <section className="section mt-40 rounded-xl p-5 mx-20">
+    <section className="section mt-40 rounded-xl p-5 md:mx-20">
       <h3 className="text-textColor text-center text-3xl font-bold">
         {props.heading}
       </h3>
-      <div className="mt-10 grid gap-5 grid-cols-1 md:grid-cols-2 items-center">
+      <div className="mt-10 grid gap-5 grid-cols-1 sm:grid-cols-2 items-center">
         {props.heading === "How It Works" &&
           work.map((item, index) => (
             <div key={index} className="flex items-center">

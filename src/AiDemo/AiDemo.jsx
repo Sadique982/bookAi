@@ -2,7 +2,7 @@ import React from "react";
 import "./AiDemo.css";
 function AiDemo(props) {
   return (
-    <div className="aiDemo md:mx-20 p-3 md:p-5 lg:p-10 rounded-xl relative overflow-hidden md:h-full">
+    <div className="aiDemo md:mx-20 md:p-5 lg:p-10 rounded-xl relative overflow-hidden md:h-full">
       {props.imgSrc != null ? (
         <img
           src={props.imgSrc}
@@ -10,15 +10,13 @@ function AiDemo(props) {
           className="w-full rounded-xl"
         />
       ) : (
-        <div className="video-embed-container">
+        <div className="video-embed-container ">
           <iframe
             src="https://app.arcade.software/share/OvUdnIEhwNxssQsB3COY?ref=share-link"
             title="Arcade Video"
             width="100%"
             height="500rem"
-            allow=" autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            className="rounded-lg shadow-lg scale-100"
+            className="rounded-lg shadow-lg scale-100 hidden md:block"
           ></iframe>
         </div>
       )}

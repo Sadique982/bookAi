@@ -61,7 +61,7 @@ function WorkRoadMap(props) {
       <div className="mt-10 grid gap-5 grid-cols-1 sm:grid-cols-2 items-center">
         {props.heading === "How It Works" &&
           work.map((item, index) => (
-            <div key={index} className="flex items-center">
+            <div key={index} id="howItWorks" className="flex items-center">
               <div className=" bg-gradient1  rounded-full p-4 mb-4">
                 <img
                   src={item.logo}
@@ -79,7 +79,7 @@ function WorkRoadMap(props) {
           ))}
         {props.heading === "Roadmap" &&
           roadmap.map((item, index) => (
-            <div key={index} className="flex items-center">
+            <div key={index} id="roadmap" className="flex items-center">
               <div className=" bg-gradient1  rounded-full p-4 mb-4">
                 <img
                   src={item.logo}

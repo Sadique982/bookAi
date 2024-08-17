@@ -29,7 +29,7 @@ const feature = [
 
 function Features() {
   return (
-    <section className="features mx-4 sm:mx-8 md:mx-12 lg:mx-16 mt-20">
+    <section id="features" className="features mx-4 sm:mx-8 md:mx-12 lg:mx-16 mt-20">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
         {feature.map((item, index) => (
           <div key={index} className="feature m-1 flex flex-col items-center">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import Logo from "/logo.png";
 import "./Navbar.css";
 
@@ -14,24 +15,60 @@ function Navbar() {
       </div>
 
       <nav className="flex flex-row items-center flex-wrap font-light">
-        <a href="#" className="m-2 hover:text-accentColor block">
+        <Link
+          to="features"
+          smooth={true}
+          duration={500}
+          className="m-2 hover:text-accentColor"
+        >
           Features
-        </a>
-        <a href="#" className="m-2 hover:text-accentColor block">
+        </Link>
+
+        <Link
+          to="howItWorks"
+          smooth={true}
+          duration={500}
+          className="m-2 hover:text-accentColor block"
+        >
           How it Works
-        </a>
-        <a href="#" className="m-2 hover:text-accentColor">
+        </Link>
+
+        <Link
+          to="roadmap"
+          smooth={true}
+          duration={500}
+          className="m-2 hover:text-accentColor"
+        >
           Roadmap
-        </a>
-        <a href="#" className="m-2 hover:text-accentColor">
+        </Link>
+
+        <Link
+          to="api"
+          smooth={true}
+          duration={500}
+          className="m-2 hover:text-accentColor"
+        >
           API
-        </a>
-        <a href="#" className="m-2 hover:text-accentColor">
+        </Link>
+
+        <Link
+          to="price"
+          smooth={true}
+          duration={500}
+          className="m-2 hover:text-accentColor"
+        >
           Price
-        </a>
-        <a href="#" className="m-2 hover:text-accentColor">
+        </Link>
+
+        <Link
+          to="models"
+          smooth={true}
+          duration={500}
+          className="m-2 hover:text-accentColor"
+        >
           Models
-        </a>
+        </Link>
+
         <a href="#" className="auth-button bg-gradient1">
           Login / Sign Up
         </a>

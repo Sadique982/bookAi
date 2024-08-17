@@ -1,0 +1,7 @@
+.feature {
+    transition: transform 0.5s ease;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}

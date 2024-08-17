@@ -1,0 +1,7 @@
+.book-sample {
+    background: rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease;
+}
+.book-sample:hover{
+    transform: scale(1.05);
+}

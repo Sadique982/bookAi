@@ -1,0 +1,15 @@
+section{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.testimonials{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.testimonial{
+    background: rgba(255, 255, 255, 0.05);
+    transition: transform 0.5s ease;
+}
+.testimonial:hover{
+    transform: translateY(-5px);
+}

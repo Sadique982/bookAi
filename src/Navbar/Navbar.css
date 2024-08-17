@@ -1,0 +1,11 @@
+header{
+    padding: 20px 0;
+}
+header>nav>a {
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+.auth-button{
+    border-radius: 0.5rem;
+    padding: 10px;
+}

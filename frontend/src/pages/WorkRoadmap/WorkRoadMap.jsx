@@ -1,12 +1,12 @@
 import React from "react";
-import Wand from "../assets/wand-magic-sparkles-solid.svg";
-import Pencil from "../assets/pencil-solid.svg";
-import Gear from "../assets/gears-solid.svg";
-import Check from "../assets/circle-check-solid.svg";
-import User from "../assets/circle-user-solid.svg";
-import Store from "../assets/store-solid.svg";
-import Users from "../assets/users-solid.svg";
-import Brush from "../assets/paintbrush-solid.svg";
+import Wand from "../../assets/wand-magic-sparkles-solid.svg";
+import Pencil from "../../assets/pencil-solid.svg";
+import Gear from "../../assets/gears-solid.svg";
+import Check from "../../assets/circle-check-solid.svg";
+import User from "../../assets/circle-user-solid.svg";
+import Store from "../../assets/store-solid.svg";
+import Users from "../../assets/users-solid.svg";
+import Brush from "../../assets/paintbrush-solid.svg";
 import "./WorkRoadMap.css";
 function WorkRoadMap(props) {
   const work = [

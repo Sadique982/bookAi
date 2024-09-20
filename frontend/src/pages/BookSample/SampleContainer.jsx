@@ -1,7 +1,7 @@
 import React from "react";
-import Paradox from "../assets/paradox.png";
-import Echoes from "../assets/ecos.png";
-import Mist from "../assets/mist.png";
+import Paradox from "../../assets/paradox.png";
+import Echoes from "../../assets/ecos.png";
+import Mist from "../../assets/mist.png";
 import "./SampleContainer.css";
 
 function SampleContainer() {
@@ -28,9 +28,8 @@ function SampleContainer() {
       {sample.map((item, index) => (
         <div
           key={index}
-          className={`book-sample text-center rounded-xl ${
-            index === 2 && "md:col-span-2 lg:col-span-1"
-          }`}
+          className={`book-sample text-center rounded-xl ${index === 2 && "md:col-span-2 lg:col-span-1"
+            }`}
         >
           <div className="flex flex-col text-center items-center">
             <div className="rounded-full p-4 mb-4">

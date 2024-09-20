@@ -1,8 +1,8 @@
 import React from "react";
-import Robot from "../assets/robot-solid.svg";
-import Book from "../assets/book-solid.svg";
-import Download from "../assets/download-solid.svg";
-import language from "../assets/language-solid.svg";
+import Robot from "../../assets/robot-solid.svg";
+import Book from "../../assets/book-solid.svg";
+import Download from "../../assets/download-solid.svg";
+import language from "../../assets/language-solid.svg";
 import "./Features.css";
 const feature = [
   {
